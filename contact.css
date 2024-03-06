@@ -1,0 +1,95 @@
+.contact {
+    padding: 100px 20px;
+}
+
+.textarea, input {
+    width: 100%;
+    padding: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    border: 1px solid #f0e9ff;
+    border-radius: 5px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+    color: #495057;
+}
+
+textarea:focus,
+input:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.half-row {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.contact__firstname {
+    padding-right: 15px;
+}
+
+.contact__email {
+    padding-left: 15px; 
+}
+
+.contact-send {
+    margin-top: 30px; 
+}
+
+.footer__navigation {
+    margin-bottom: 50px;
+}
+
+.footer__navigation-item {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.footer__navigation-item {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.footer__navigation-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer__brand img {
+    width: 128px;
+    border-radius: 100%; 
+}
+
+
+.footer__social:hover {
+    background: linear-gradient(90deg, #1345e6 0%, #ed239f, 100%);
+}
+
+
+.footer__social {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 36px;
+    color: #05364d;
+    font-size: 1rem;
+    margin-right: 12px;
+}
+
+
+
+.footer__social a {
+    color: #021017;
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 100%; 
+    }
+}
